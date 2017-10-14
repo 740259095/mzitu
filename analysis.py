@@ -6,7 +6,7 @@ from wordcloud import WordCloud
 
 
 # 将所有文件夹名转换为str类型
-folder_name = " ".join(os.listdir(r"E:\Pic\mzitu"))
+folder_name = " ".join(os.listdir(r"D:\mmjpg"))
 
 # jieba分词
 jieba.load_userdict(r".\data\jieba.txt")
